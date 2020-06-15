@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: Helvetica;
+    font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 
 }
@@ -128,7 +128,7 @@ ol li {
 
 
 .bannerheader {
-    background-color: #fff3ee;
+    background-color: #fff2ee;
     height: 500px;
 }
 
@@ -170,7 +170,8 @@ p {
 
 .rightmenu1 img {
     width: 1100px;
-    height: 500px;
+    height: 501px;
+    z-index: 0;
     object-fit: contain;
     transform: translate(-34.5%, 3.7%);
 }
@@ -182,7 +183,8 @@ p {
 
 
 .bottomheader {
-    background-color: #98e5dc;
+    background-color: #afebe4;
+    z-index:9;
     height: 70px;
     border: 2px solid black;
 }
@@ -329,7 +331,7 @@ i {
 
 
 .middlemain, .secondmain {
-    background-color: #00adb4;
+    background-color: #00a7bb;
     height: 600px;
 
 }
@@ -453,23 +455,86 @@ i {
 }
 
 
+.image1 img {
+    object-fit: cover;
+    /* transform: translateX(200%); */
+    width:: auto;
+    height: 20px;
+    margin: 2px;
+
+}
+
+.image2 img {
+    object-fit: cover;
+    /* transform: translateX(200%); */
+    width:: auto;
+    height: 20px;
+    margin: 2px;
+
+}
+
+.image3 img {
+    object-fit: cover;
+    /* transform: translateX(200%); */
+    width:: auto;
+    height: 20px;
+    margin: 2px;
+
+}
+
+.image3 img {
+    object-fit: cover;
+    /* transform: translateX(200%); */
+    width:: auto;
+    height: 30px;
+    margin: 2px;
+
+}
+
+.image4 img {
+    object-fit: cover;
+    transform: translateY(-40%);
+    width: auto;
+    height: 40px;
+    margin: 2px;
+
+}
 
 
 .image5 img {
     object-fit: cover;
     /* transform: translateX(200%); */
     width:: auto;
-    height: 35px;
+    height: 40px;
     margin: 4px;
 }
 
-.image7 img {
+.image6 img {
     object-fit: cover;
     /* transform: translateX(200%); */
     width:: auto;
     height: 25px;
+    margin: 4px;
+}
+
+
+
+.image7 img {
+    object-fit: cover;
+    transform: translateY(-20%);
+    width:: auto;
+    height: 50px;
     margin: 0px;
 }
+
+.image8 img {
+    object-fit: cover;
+    transform: translateY(-20%);
+    width:: auto;
+    height: 30px;
+    margin: 0px;
+}
+
 
 
 .lastleft {
@@ -477,6 +542,7 @@ i {
     float: left;
     text-align: left;
     color:black;
+
 
 }
 
@@ -487,6 +553,10 @@ i {
     /* background-color: darkgrey; */
     float: left;
     color:black;
+}
+
+.lastleft h5 {
+    line-height: 0;
 }
 
 
