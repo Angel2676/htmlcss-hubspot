@@ -41,6 +41,52 @@ z-index: 0;
     text-align: center;
     line-height: 70px;
 }
+li i {
+    position: relative;
+    /* z-index: 2; */
+
+}
+
+.languages {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    left:12%;
+    top:70%;
+    height: 800px
+    width: 100px;
+    z-index: 1;
+
+}
+
+
+.lang{
+
+    position: absolute;
+    left: 63%;
+    bottom: 98.5%;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    z-index: 0;
+    transform: rotate(44deg);
+
+}
+
+.languages li {
+    color: black;
+    padding-left: 20px;
+}
+
+
+
+
+.topper .appears:hover .languages{
+    display: block;
+}
 
 
 
@@ -54,9 +100,8 @@ z-index: 0;
 
 }
 
-.languages {
-    display: none;
-}
+
+
 
 
 
@@ -98,6 +143,116 @@ height:40px;
     /* padding-left: 10px; */
 
 }
+
+
+.openmenu{
+    display: none;
+    position: absolute;
+    width: 65%;
+    left: 30%;
+    top:15%;
+    height: 450px;
+    background-color: WHITE;
+    border: 2px solid black;
+    z-index: 9;
+}
+
+
+
+li:hover .openmenu{
+    display: block;
+}
+
+.openmenu1 {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    z-index: 1;
+}
+
+.bord{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    right: 49%;
+    z-index: -1;
+    transform: rotate(40deg);
+}
+
+.primobanner {
+    line-height: 50px;
+}
+
+
+
+.primobanner h2, h4 {
+
+    text-align: center;
+
+
+}
+
+.openmenu2 {
+    width: 100%;
+    height: 150px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    /* background-color: green; */
+}
+
+.openmenu2left {
+    width: 33%;
+    padding-left: 10px;
+    /* background-color:violet; */
+    float:left;
+    height: 150px;
+    text-align: left;
+
+}
+
+.openmenu2center {
+    width: 33%;
+    padding-left: 10px;
+    float:left;
+    /* background-color:yellow; */
+    height: 150px;
+    text-align: left;
+
+}
+
+.openmenu2right {
+    width: 33%;
+    padding-left: 10px;
+    float:left;
+    text-align: left;
+    height: 150px;
+
+}
+
+
+.openmenu3 {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    /* background-color: grey; */
+
+}
+
+.bordII{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    right: 24%;
+    z-index: -1;
+    transform: rotate(40deg);
+}
+
+
 
 
 
@@ -620,7 +775,7 @@ li h3{
     color:white;
 }
 
-li i {
+li .fab{
     display: inline-block;
     font-size: 25px;
     color: #b6c2cf;
