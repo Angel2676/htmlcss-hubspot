@@ -98,6 +98,7 @@ li i {
     margin-right: 15px;
     font-size: 18px;
 
+
 }
 
 
@@ -125,7 +126,7 @@ main{
 .submenu {
     width: 80%;
     margin: 0px auto;
-    line-height: 70px;
+    line-height: 40px;
 }
 
 .logo {
@@ -148,10 +149,10 @@ height:40px;
 .openmenu{
     display: none;
     position: absolute;
-    width: 65%;
-    left: 30%;
+    width: 45%;
+    left: 27.5%;
     top:15%;
-    height: 450px;
+    height: 500px;
     background-color: WHITE;
     border: 2px solid black;
     z-index: 9;
@@ -168,33 +169,97 @@ li:hover .openmenu{
     height: 150px;
     background-color: white;
     z-index: 1;
+
 }
 
 .bord{
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     background-color: white;
     border: 2px solid black;
     position: absolute;
     bottom:85%;
-    right: 49%;
+    right: 25%;
     z-index: -2;
     transform: rotate(40deg);
 }
 
 .primobanner {
-    line-height: 70px;
+    line-height: 30px;
     z-index: -1;
+    padding-left: 20px;
+
+}
+
+.primobannerfirst {
+    line-height: 30px;
+    z-index: -1;
+    padding-left: 20px;
+
+}
+
+far-dot-circle {
+    float: left;
+    width: 50%;
+    top: 50%;
+    right: 100%;
+
+}
+/*
+.first h2 {
+    float: left;
+    width:50%;
+    top: 30%;
+    left: 30%;
+} */
+
+
+
+.pbnf {
+    font-size:16px;
+    font-weight: bold;
+    margin-top:20px;
+    float: left;
+    right: 30%;
+    top:30%;
+    width: 50%;
+    text-align: left;
+
+}
+
+.pbnf2 {
+    font-size:12px;
+    float: left;
+    width: 50%;
+    text-align: left;
+
 }
 
 
+/* .primobanner h2, h4 {
+    text-align: left;
+    float: left;
+    width: 50%;
+}  */
 
-.primobanner h2, h4 {
 
-    text-align: center;
-
-
+.openmenux{
+    display: none; 
+    position: absolute;
+    width: 65%;
+    left: 30%;
+    top:15%;
+    height: 450px;
+    background-color: WHITE;
+    border: 2px solid black;
+    z-index: 9;
 }
+
+li:hover .openmenux{
+    display: block;
+}
+
+
 
 .bordII{
     width: 70px;
@@ -203,16 +268,50 @@ li:hover .openmenu{
     border: 2px solid black;
     position: absolute;
     bottom:85%;
-    right: 24%;
+    right: 27.5%;
     z-index: -2;
     transform: rotate(40deg);
 }
 
-.primobannerII h2 h5{
+.primobannerII h4{
+    float: left;
     padding: 5px 5px 0px 0px;
     text-align: left;
     font-size: 10px;
+    font-color:rgb(51, 71, 91)
 }
+
+.bordIII{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    bottom:85%;
+    right: 29.5%;
+    z-index: -2;
+    transform: rotate(40deg);
+}
+
+.ter, .quater {
+    float: left;
+    text-align: left;
+    /* width: 50%; */
+
+}
+
+/* .ter, .quater  h2 {
+    font-size: 16px;
+}
+
+.ter, .quater h4 {
+    font-size: 12px;
+} */
+
+
+
+
+
 
 /* .primobannerII h5 {
     padding: 0px 10px 50px 10px;
@@ -226,19 +325,36 @@ li:hover .openmenu{
     /* border-top: 2px solid grey; */
     border-bottom: 2px solid grey;
     /* background-color: green; */
-    font-size: 15px;
+
 }
 
 
 
 .openmenu2left {
     width: 33.3333%;
-    padding-left: 5px;
+    padding-left: 15px;
     /* background-color:violet; */
     float:left;
     /* height: 140px; */
     text-align: left;
 
+}
+
+/* .openmenu2left, .openmenu2center, .openmenu2right h2 {
+    font-size: 16px;
+}
+
+.openmenu2left, .openmenu2center, .openmenu2right h5 {
+    font-size: 12px;
+} */
+
+.marker {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.markerII {
+    font-size: 12px;
 }
 
 
@@ -252,6 +368,7 @@ li:hover .openmenu{
 
 }
 
+
 .openmenu2right {
     width: 33.3333%;
     padding-left: 5px;
@@ -262,12 +379,63 @@ li:hover .openmenu{
 }
 
 
+
 .openmenu3 {
     width: 100%;
     height: 150px;
     text-align: center;
     line-height: 30px;
     /* background-color: grey; */
+
+}
+
+.openmenuxx{
+    display: none;
+    position: absolute;
+    width: 35%;
+    left: 60.2%;
+    top:15.5%;
+    height: 200px;
+    background-color: WHITE;
+    border: 2px solid black;
+    z-index: 9;
+}
+
+li:hover .openmenuxx{
+    display: block;
+}
+
+
+
+
+
+.openmenu21 {
+    width: 100%;
+    /* height: 50px; */
+    /* border-top: 2px solid grey; */
+    border-bottom: 2px solid grey;
+    /* background-color: green; */
+    font-size: 15px;
+}
+
+.openmenu21left {
+    width: 100%;
+    padding-left: 5px;
+    /* background-color:violet; */
+    float:left;
+    /* height: 140px; */
+    text-align: left;
+
+}
+
+
+.openmenu21center {
+    width: 100%;
+    padding-left: 10px;
+    float:left;
+    /* background-color:yellow; */
+    /* height: 140px; */
+    text-align: left;
 
 }
 
@@ -298,6 +466,7 @@ li:hover .openmenu{
 ol li {
     padding-left:30px;
     font-size: 16px;
+
 }
 
 
@@ -588,7 +757,7 @@ i {
 
 .thirdmain {
     width: 80%;
-    height: 350px;
+    height: 300px;
     /* background-color: blue; */
     margin: 0 auto;
 }
@@ -741,7 +910,7 @@ i {
     float: right;
     width: auto;
     height: 450px;
-    transform: translate(-30%, -55%);
+    transform: translate(-30%, -45%);
 }
 
 
@@ -755,7 +924,7 @@ i {
 
 footer {
     background-color: #33475b;
-    height:500px;
+    height:550px;
 }
 
 .footerpage {
@@ -766,7 +935,7 @@ footer {
 
 .upfooter10 {
 
-    height: 400px;
+    height: 440px;
     text-align: left;
 
 
@@ -838,6 +1007,13 @@ li .fab{
     padding: 0;
 
 }
+
+.submenuII {
+    width: 80%;
+    margin: 0px auto;
+    line-height: 70px;
+}
+
 
 .logoII img {
 width: auto;
